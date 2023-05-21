@@ -1,0 +1,61 @@
+.sidebar{
+    display: flex;
+    flex-direction: column;
+    /* box-sizing: border-box; */
+    flex: .35;
+     
+   
+}
+
+.sidebar_header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding:20px;
+     padding-top: 5px;
+     padding-bottom: 5px;
+   border-bottom:1px solid rgb(0,44,55);
+    /* box-sizing: border-box; */
+
+
+}
+.sidebar_headerright{
+display: flex;
+justify-content: space-between;
+align-items: center;
+
+
+}
+.sidebar_search{
+    display: flex;
+    align-items: center;
+   
+    padding: 10px;
+    padding-bottom: 10px;
+   
+}
+.sidebar_searchcontainer{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: 35px;
+    border-radius: 20px;
+}
+.sidebar_searchcontainer input{
+    border-radius: 20px;
+   border: none;
+   margin-left: 10px;
+}
+.sidebar_searchcontainer form button{
+    display: none;
+}
+.sidebar_chatboxs{
+background-color: rgb(240,248,255);
+flex: 1;   
+overflow:scroll;
+
+}
+.sidebar_chatboxs p{
+    color: black;
+}
+
